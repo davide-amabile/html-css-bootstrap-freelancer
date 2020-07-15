@@ -14,3 +14,18 @@
   height: 500px;
   background-color: yellow;
 }
+.portfolio {
+  height: 100px;
+  background-color: grey;
+  position: relative;
+}
+
+.img_porfolio {
+  height: 50px;
+  width: 80%;
+  background-color: blue;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
