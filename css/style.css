@@ -9,3 +9,8 @@
   height: 70px;
   background-color: red;
 }
+
+.jumbotron {
+  height: 500px;
+  background-color: yellow;
+}
