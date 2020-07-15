@@ -14,10 +14,14 @@
   height: 500px;
   background-color: yellow;
 }
+
+.cnt_port {
+
+}
 .portfolio {
   height: 100px;
-  background-color: grey;
-  position: relative;
+  background-color: red;
+  border: 1px solid black;
 }
 
 .img_porfolio {
