@@ -1,5 +1,5 @@
 
-
+/* header */
 .logo {
   height: 70px;
   background-color: blue;
@@ -14,13 +14,16 @@
   height: 500px;
   background-color: yellow;
 }
-
+/* /header */
+/* corpo centrale */
+/* portfolio */
 .cnt_port {
 
 }
+
+
 .portfolio {
   height: 100px;
-  border: 1px solid black;
   position: relative;
 }
 
@@ -33,3 +36,10 @@
   left:50%;
   transform: translate(-50%, -50%);
 }
+/*/ portfolio */
+/* about */
+.sct-abt {
+  background-color: lightblue;
+}
+/* /about */
+/* form */
