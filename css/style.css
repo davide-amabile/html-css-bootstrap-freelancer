@@ -43,3 +43,16 @@
 }
 /* /about */
 /* form */
+
+.cnt-form {
+height: 150px;
+background-color: orange;
+}
+/* /form */
+/* /corpo centrale */
+/* footer */
+
+.top-fot {
+  height: 300px;
+  background-color: darkblue;
+}
