@@ -5,6 +5,7 @@
   text-transform: uppercase;
 }
 
+
 .top_header a {
   color: #fff;
 }
@@ -21,8 +22,16 @@
  font-size: 1.5rem;
  padding: 0 20px;
 }
-.nav_hmb {
-  margin: auto;
-  width: auto;
+
+.dv_hmb {
+
+}
+
+.btn_hmb {
+  height: 35px;
+  vertical-align: middle;
+  background-color: #1abc9c;
+  padding: 0 20px;
+
 
 }
