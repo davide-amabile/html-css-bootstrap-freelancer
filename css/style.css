@@ -1,10 +1,17 @@
 
 /* header */
+/* #hed {
+  position: relative;
+} */
 .nav_up {
   height: 70px;
   line-height: 70px;
   background-color: #2c3e50;
   text-transform: uppercase;
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  width: 70px; */
 }
 
 .top_header a {
@@ -33,10 +40,64 @@
 
 
 
-.jumbotron {
-  height: 500px;
-  background-color: yellow;
+.jumb {
+  background-color: #1abc9c;
+  text-align: center;
+  color: #fff;
 }
+
+.img_guy {
+  max-width: 250px;
+  padding-top: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 8rem;
+  text-transform: capitalize;
+  padding: 10px 0;
+}
+
+.icn_str {
+  font-size: 2rem;
+}
+
+
+/* .icn_str::before{
+  content: "";
+  height: 3px;
+  background-color: #fff;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+} */
+
+.icn_str::after {
+  content: "";
+  height: 3px;
+  background-color: #fff;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.jumb p {
+  font-size: 3rem;
+  text-transform: capitalize;
+  padding-top: 10px ;
+  padding-bottom: 30px;
+}
+ /* media query jumbotron */
+@media screen and (max-width: 750px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .jumb p {
+    font-size: 1.2rem;
+  }
+}
+
 /* /header */
 /* corpo centrale */
 /* portfolio */
